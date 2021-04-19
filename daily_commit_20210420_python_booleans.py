@@ -1,0 +1,34 @@
+# 4.20 tuesday
+# Booleans
+
+# What will be the resulting Boolean of the following pieces of code (answer first then check by typing it in!)
+
+# Answer before running cell
+# false
+print 2 > 3
+
+# Answer before running cell
+# false
+print 3 <= 2
+
+# Answer before running cell
+# false
+print 3 == 2.0
+
+# Answer before running cell
+# true
+print 3.0 == 3
+
+# Answer before running cell
+# false
+print 4**0.5 != 2
+
+# Final Question: What is the boolean output of the cell block below?
+# two nested lists
+l_one = [1, 2, [3, 4]]
+l_two = [1, 2, {'k1': 4}]
+
+# True or False? false
+print l_one[2][0] >= l_two[2]['k1']
+
+
