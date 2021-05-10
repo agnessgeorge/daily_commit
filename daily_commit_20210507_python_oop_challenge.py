@@ -30,7 +30,7 @@ class Account:
 
 
 
-# 1. Instantiate the class
+# 1. Instantiate the class Account 
 acct1 = Account('Jose',100)
 
 # 2. Print the object
