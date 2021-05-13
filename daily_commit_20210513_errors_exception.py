@@ -10,8 +10,6 @@ x = 5
 y = 0
  
 try :
-    x = 5
-    y = 0
 
     z = x/y
     print(z)
