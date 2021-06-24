@@ -54,11 +54,10 @@ def win_check(board, mark):
     #pass
 
 print('Welcome to Tic Tac Toe!')
-game_on = True
 
 player_input()
 
-while game_on == True:
+while True:
     #Player 1 Turn
     print ("Player one's turn")
     pos = raw_input("where do you want to place your marker? :")
@@ -84,8 +83,6 @@ while game_on == True:
         print("player 1 wins")
         game_on = False
         break
-
-
 
 
 
